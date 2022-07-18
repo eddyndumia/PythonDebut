@@ -1,4 +1,4 @@
-# Lists -> This is an ordered collection of Data
+# List -> This is an ordered collection of Data
 
 list1 = [1, 2, 3, 4, 5, 7, 8, 9]  # This is a list of integers
 
