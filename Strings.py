@@ -76,7 +76,7 @@ bool1 = text13.isupper()  # Returns true or false based on whether the str is up
 print(bool1)
 
 text14 = ""
-bool2 = text14.isspace()    # Checks whether the str is all white space. If it is it returns true and if it's not it
+bool2 = text14.isspace()  # Checks whether the str is all white space. If it is it returns true and if it's not it
 # returns false
 print(bool2)
 
@@ -85,7 +85,13 @@ bool3 = text15.isnumeric()  # Returns true if the str contains any number 0-9
 print(bool3)
 
 text16 = "I was number 4"
-bool4 = text16.isdigit()    # Returns true if the str contains digits only (0-9)
+bool4 = text16.isdigit()  # Returns true if the str contains digits only (0-9)
 print(bool4)
 
 
+def hello(name1):
+    print("Hello " + name1)
+
+
+hello("Eddy")
+hello("Esther")
