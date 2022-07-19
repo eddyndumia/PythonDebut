@@ -22,7 +22,7 @@ text2 = text[0:7]
 print(text2)
 
 # String Functions
-# Python gives us access to strength functions when working with strings such as endswith() and startswith
+# Python gives us access to strength functions when working with strings that are very useful for text formatting.
 
 # StartsWith() -> Checks whether the string starts with a specific substring
 name = "Python"
@@ -32,6 +32,24 @@ if name.startswith("P"):
 if name.endswith("n"):
     print("Name ends with n")
 
-# Python allows us to convert strings to uppercase and lower case.
 text2 = "i love python"
+text3 = text2.upper()   # Converts text to upper case
+print(text3)
+
+text4 = text3.lower()   # Converts text to lower case
+print(text4)
+
+text5 = text4.capitalize()
+print(text5)    # Converts the first letter of the string to a capital letter
+
+text6 = text5.title()
+print(text6)    # Converts str to title case
+
+# String Formatting
+
+price = 100
+text7 = "The cars' windows cost {} dollars"
+text8 = text7.format(price)    # This will replace the curly braces with 100
+print(text8)
+
 
