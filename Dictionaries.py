@@ -35,3 +35,4 @@ for i in collection.keys():  # -> This will print the keys only
 
 for i in collection.values():   # ->This will loop through the values only
     print(i)
+    
