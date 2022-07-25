@@ -3,7 +3,7 @@ age = 4
 distance = 10
 print(age * distance)
 
-# Integer Division
+# Integer Divisions
 print(4//2)
 
 # Floating Division
